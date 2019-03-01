@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: Pacifico;
+    src:url(Font/Pacifico/Pacifico-Regular.ttf)
+}
+
+/*//////////////////////Header///////////////////////////*/
+
+.container-header{
+    height: 100vh;
+    width: 100vw;
+    background-image:  url(Image/architecture-booth-buildings-374815.jpg);
+}
+
+.menu{
+    height: 10vh;  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 10vh;
+    backface-visibility: visible;
+}
+
+.menu:hover{
+    background: rgb(219, 219, 219,0.2);
+}
+
+.container-logo{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 10vh;
+}
+
+.logo{
+    width: 12vw;
+    font-family: Pacifico;
+    font-size: 3.4rem;
+}
+
+.logo:hover{
+    color: #282828;
+}
+
+.elements{
+    width: 60vw;
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+}
+
+.nav-elements{
+    width: 10vw;
+    height: 4vh;
+    float: right;
+}
+
+
+
+
