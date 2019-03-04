@@ -23,6 +23,7 @@
     text-align: center;
     line-height: 10vh;
     backface-visibility: visible;
+    transition: background-color 0.5s;
 }
 
 .menu:hover{
