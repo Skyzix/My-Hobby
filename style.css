@@ -13,11 +13,14 @@
 .container-header{
     height: 100vh;
     width: 100vw;
-    background-image:  url(Image/architecture-booth-buildings-374815.jpg);
+    background-image:  url(Image/palm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .menu{
-    height: 10vh;  
+    height: 9vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -32,13 +35,14 @@
 .container-logo{
     width: 40vw;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 5vw;
     text-align: center;
     line-height: 10vh;
 }
 
 .logo{
-    width: 12vw;
+    width: 14vw;
     font-family: Pacifico;
     font-size: 3.4rem;
 }
