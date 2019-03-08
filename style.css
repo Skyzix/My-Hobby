@@ -25,6 +25,11 @@
     background-position: center;
 }
 
+.decoration{
+    text-decoration: none;
+    color: black;
+}
+
 .menu{
     height: 9vh;
     display: flex;
@@ -33,12 +38,13 @@
     line-height: 10vh;
     backface-visibility: visible;
     transition: background-color 0.55s;
-    background: rgb(219, 219, 219,0.1);
+    background: rgb(219, 219, 219,0.35);
     position: fixed;
+    z-index: 1000;
 }
 
 .menu:hover{
-    background: rgb(219, 219, 219,0.25);
+    background: rgb(219, 219, 219,0.47);
 }
 
 .container-logo{
@@ -78,11 +84,10 @@
     font-size: 0.9rem;
     transition: background-color 0.3s;
     cursor: pointer;
-    z-index: 1000;
 }
 
 .nav-elements:hover{
-    background: rgb(219, 219, 219,0.66);
+    background: rgb(219, 219, 219,0.75);
 }
 
 .motivation-1{
@@ -91,6 +96,7 @@
     right: 12%;
     font-family: Pacifico;
     font-size: 2rem;
+     z-index: 1";
 }
 
 .motivation-2{
@@ -100,6 +106,7 @@
     font-family: Pacifico;
     font-size: 2rem;
     text-align: center;
+     z-index: 1";
 }
 /*///////////////////// Main Start ///////////////////*/
 
@@ -128,4 +135,32 @@
 
 .start-button:hover{
     font-size: 1.15rem;
+}
+
+.main-page{
+    height: 300vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.podroze{
+    position: absolute;
+    top: 36%;
+    right: 38%;
+    font-family: Pacifico;
+    font-size: 5rem;
+}
+
+.io{
+    position: absolute;
+    top: 56%;
+    right: 49%;
+    font-size: 3rem;
 }
