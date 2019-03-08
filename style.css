@@ -26,11 +26,12 @@
     text-align: center;
     line-height: 10vh;
     backface-visibility: visible;
-    transition: background-color 0.5s;
+    transition: background-color 0.7s;
+    background: rgb(219, 219, 219,0.1);
 }
 
 .menu:hover{
-    background: rgb(219, 219, 219,0.2);
+    background: rgb(219, 219, 219,0.25);
 }
 
 .container-logo{
@@ -67,16 +68,16 @@
 
 .motivation-1{
     position: absolute;
-    top: 33%;
-    right: 11%;
+    top: 34%;
+    right: 12%;
     font-family: Pacifico;
     font-size: 2rem;
 }
 
 .motivation-2{
     position: absolute;
-    top: 47%;
-    right: 2%;
+    top: 46%;
+    right: 1.8%;
     font-family: Pacifico;
     font-size: 2rem;
     text-align: center;
