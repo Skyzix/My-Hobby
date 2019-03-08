@@ -8,6 +8,12 @@
     src:url(Font/Pacifico/Pacifico-Regular.ttf)
 }
 
+
+@font-face{
+    font-family: Overpass;
+    src:url(Font/Overpass/Overpass-Black.ttf)
+}
+
 /*//////////////////////Header///////////////////////////*/
 
 .container-header{
@@ -26,8 +32,9 @@
     text-align: center;
     line-height: 10vh;
     backface-visibility: visible;
-    transition: background-color 0.7s;
+    transition: background-color 0.55s;
     background: rgb(219, 219, 219,0.1);
+    position: fixed;
 }
 
 .menu:hover{
@@ -35,7 +42,7 @@
 }
 
 .container-logo{
-    width: 40vw;
+    width: 35vw;
     display: flex;
     justify-content: left;
     padding-left: 5vw;
@@ -55,15 +62,27 @@
 
 .elements{
     width: 60vw;
-    height: 10vh;
+    height: 9vh;
     text-align: center;
-    line-height: 10vh;
+    line-height: 4vh;
 }
 
 .nav-elements{
-    width: 10vw;
+    width: 7vw;
     height: 4vh;
+    margin-right: 25px;
     float: right;
+    margin-top: 2.4vh;
+    background: rgb(219, 219, 219,0.38);
+    font-family: Overpass;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.nav-elements:hover{
+    background: rgb(219, 219, 219,0.66);
 }
 
 .motivation-1{
@@ -82,6 +101,31 @@
     font-size: 2rem;
     text-align: center;
 }
+/*///////////////////// Main Start ///////////////////*/
 
+.container-main-1{
+    height: 300vh;
+    width: 100vw;
+    background-image: url(Image/above-aerial-aerial-view-931018.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+.start-button{
+    width: 17vw;
+    height: 6.5vh;
+    background: rgb(219, 219, 219,0.28);
+    font-family: Overpass;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    transition: font-size 0.45s;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    right: 3%;
+}
 
+.start-button:hover{
+    font-size: 1.15rem;
+}
