@@ -14,6 +14,10 @@
     src:url(Font/Overpass/Overpass-Black.ttf)
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*//////////////////////Header///////////////////////////*/
 
 .container-header{
@@ -38,7 +42,7 @@
     line-height: 10vh;
     backface-visibility: visible;
     transition: background-color 0.55s;
-    background: rgb(219, 219, 219,0.35);
+    background: rgb(219, 219, 219,0.28);
     position: fixed;
     z-index: 1000;
 }
@@ -140,9 +144,6 @@
 .main-page{
     height: 300vh;
     width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .header-main{
@@ -153,7 +154,7 @@
 .podroze{
     position: absolute;
     top: 36%;
-    right: 38%;
+    right: 37%;
     font-family: Pacifico;
     font-size: 5rem;
 }
@@ -161,6 +162,148 @@
 .io{
     position: absolute;
     top: 56%;
-    right: 49%;
+    right: 48%;
     font-size: 3rem;
+}
+
+.io:hover{
+    color: rgb(32, 32, 32);
+}
+
+.main-main{
+    height: 230vh;
+    width: 100vw;
+}
+
+.space{
+    width: 100vw;
+    height: 20vh;
+}
+
+.box-1{
+    width: 100vw;
+    height: 45vh;
+}
+
+.beneth{
+    position: relative;
+    left: 22px;
+    top: 22px;
+}
+
+.above{
+     margin-left: 12vw;
+    position: absolute;
+}
+
+.beneth-1{
+    position: relative;
+    left: 22px;
+    top: 22px;
+}
+
+.above-1{
+     margin-left: 60vw;
+    position: absolute;
+}
+
+.text{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 22px;
+    left: 22px;
+}
+
+.shadow-text{
+    margin-left: 50vw;
+    position: absolute;
+}
+
+.text-1{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 22px;
+    left: 22px;
+}
+
+.shadow-text-1{
+    margin-left: 12vw;
+    position: absolute;
+}
+
+.variety-1{
+    width: 39vw;
+    height: 30vh;
+}
+
+.variety-2{
+    width: 28vw;
+    height: 30vh;
+}
+
+.nr-1{
+    background: rgb(219, 219, 219,0.45);
+}
+
+.nr-2{
+    background: url(Image/pexels-photo-297755.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nr-3{
+    background: rgb(219, 219, 219,0.74);
+}
+
+.nr-4{
+    background: url(Image/pexels-photo-239520.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nr-5{
+    background: url(Image/pexels-photo-618545.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nr-6{
+    background: url(Image/pexels-photo-731217.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.opis{
+    font-family: Overpass;
+    padding: 30px;
+}
+
+.catalog{
+    width: 100vw;
+    height: 30vh;
+    font-family: Pacifico;
+    text-align: center;
+    line-height: 60vh;
+    font-size: 2.2rem;
+}
+
+video{
+  position: absolute;
+  margin-top: 0vh;
+  left: 50%;
+  width: 180vw;
+  height: 140vh;
+  z-index: -50;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
