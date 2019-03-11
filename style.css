@@ -78,7 +78,7 @@ html{
 }
 
 .nav-elements{
-    width: 7vw;
+    width: 8vw;
     height: 4vh;
     margin-right: 25px;
     float: right;
@@ -153,8 +153,9 @@ html{
 
 .podroze{
     position: absolute;
-    top: 36%;
-    right: 37%;
+    width: 100vw;
+    text-align: center;
+    top: 38%;
     font-family: Pacifico;
     font-size: 5rem;
 }
@@ -162,7 +163,7 @@ html{
 .io{
     position: absolute;
     top: 56%;
-    right: 48%;
+    right: 49%;
     font-size: 3rem;
 }
 
@@ -315,4 +316,69 @@ html{
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.1);
+}
+
+/*//////////Katalog///////////*/
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.30);
+  color: #f1f1f1;
+  text-align: center;
+  width: 100vw;
+  padding: 20px;
+  font-size: 0.7rem;
+  font-family: Overpass;
+}
+
+.katalog{
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    top: 40%;
+    font-family: Pacifico;
+    font-size: 3rem;
+}
+
+.io-1{
+    position: absolute;
+    top: 52%;
+    right: 49%;
+    font-size: 2.2rem;
+}
+
+.io-1:hover{
+    color: rgb(32, 32, 32);
+}
+
+.container-8{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-9{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map-element{
+    width: 33vw;
+    height: 29vh;
+    background-color: aqua;
+}
+
+.space-1{
+    width: 100vw;
+    height: 9vh;
 }
