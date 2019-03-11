@@ -514,3 +514,21 @@ iframe{
     width: 28vw;
     height: 30vh;
 }
+
+.australia-1{
+    background: url(Image/Australia/australia-city-downtown-1878293.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.australia-2{
+    background: url(Image/Australia/australia-curve-desert-5356.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.australia-3{
+    background: url(Image/Australia/action-australia-beach-533509.jpg);
+    background-size: cover;
+    background-position: center;
+}
