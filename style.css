@@ -443,7 +443,7 @@ html{
 }
 
 .container-main-4{
-    height: 300vh;
+    height: 310vh;
     width: 100vw;
     background-image: url(Image/australia-dawn-dusk-1872047.jpg);
     background-repeat: no-repeat;
@@ -451,8 +451,14 @@ html{
     background-position: center;
 }
 
+footer{
+    width: 100vw;
+    height: 10vh;
+    background: rgb(219, 219, 219,0.46);
+}
+
 .container-main-5{
-    height: 300vh;
+    height: 310vh;
     width: 100vw;
     background-image: url(Image/asia-japan-japanese-590478.jpg);
     background-repeat: no-repeat;
@@ -460,8 +466,15 @@ html{
     background-position: center;
 }
 
+.ee{
+    line-height: 10vh;
+    margin-left: 40%;
+    text-align: center;
+    font-family: Overpass;
+}
+
 .container-main-6{
-    height: 300vh;
+    height: 310vh;
     width: 100vw;
     background-image: url(Image/cape-town-daylight-desert-963713.jpg);
     background-repeat: no-repeat;
@@ -470,7 +483,7 @@ html{
 }
 
 .container-main-7{
-    height: 300vh;
+    height: 310vh;
     width: 100vw;
     background-image: url(Image/architecture-art-clouds-290386.jpg);
     background-repeat: no-repeat;
@@ -479,7 +492,7 @@ html{
 }
 
 .container-main-8{
-    height: 300vh;
+    height: 310vh;
     width: 100vw;
     background-image: url(Image/ancient-clouds-historical-site-90597.jpg);
     background-repeat: no-repeat;
@@ -488,7 +501,7 @@ html{
 }
 
 .container-main-9{
-    height: 300vh;
+    height: 310vh;
     width: 100vw;
     background-image: url(Image/big-ben-bridge-castle-460672.jpg);
     background-repeat: no-repeat;
@@ -529,6 +542,96 @@ iframe{
 
 .australia-3{
     background: url(Image/Australia/action-australia-beach-533509.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.azja-1{
+    background: url(Image/Azja/10681887-mount-everest-900-553.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.azja-2{
+    background: url(Image/Azja/ancient-architecture-asia-734102.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.azja-3{
+    background: url(Image/Azja/architecture-asia-buildings-1108297.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.afryka-1{
+    background: url(Image/Afryka/lion-wild-africa-african.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.afryka-2{
+    background: url(Image/Afryka/pexels-photo-1233286-3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.afryka-3{
+    background: url(Image/Afryka/pexels-photo-90407.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ameryka-1-1{
+    background: url(Image/AmerykaPółnocna/pexels-photo-374710.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ameryka-1-2{
+    background: url(Image/AmerykaPółnocna/pexels-photo-417054.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ameryka-1-3{
+    background: url(Image/AmerykaPółnocna/pexels-photo-490466.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ameryka-2-1{
+    background: url(Image/AmerykaPołudniowa/mount-rushmore-monument-landmark-scenic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ameryka-2-2{
+    background: url(Image/AmerykaPołudniowa/pexels-photo-414171.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ameryka-2-3{
+    background: url(Image/AmerykaPołudniowa/pexels-photo-844167.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.europa-1{
+    background: url(Image/Europa/pexels-photo-1258865.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.europa-2{
+    background: url(Image/Europa/pexels-photo-1796736.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.europa-3{
+    background: url(Image/Europa/pexels-photo-1815022.jpeg);
     background-size: cover;
     background-position: center;
 }
