@@ -340,6 +340,7 @@ html{
   padding: 20px;
   font-size: 0.7rem;
   font-family: Overpass;
+  box-sizing: border-box;
 }
 
 .katalog{
