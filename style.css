@@ -21,7 +21,7 @@ html{
 
 .container-header{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image:  url(Image/palm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +115,7 @@ html{
 
 .container-main-1{
     height: 300vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(Image/above-aerial-aerial-view-931018.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,17 +142,17 @@ html{
 
 .main-page{
     height: 300vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .header-main{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
 .podroze{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     top: 38%;
     font-family: Pacifico;
@@ -172,16 +172,16 @@ html{
 
 .main-main{
     height: 230vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .space{
-    width: 100vw;
+    width: 100%;
     height: 20vh;
 }
 
 .box-1{
-    width: 100vw;
+    width: 100%;
     height: 45vh;
 }
 
@@ -285,7 +285,7 @@ html{
 }
 
 .catalog{
-    width: 100vw;
+    width: 100%;
     height: 30vh;
     font-family: Pacifico;
     text-align: center;
@@ -323,7 +323,7 @@ html{
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   width: auto;
   height: auto;
@@ -336,7 +336,7 @@ html{
   background: rgba(0, 0, 0, 0.30);
   color: #f1f1f1;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   padding: 20px;
   font-size: 0.7rem;
   font-family: Overpass;
@@ -344,7 +344,7 @@ html{
 
 .katalog{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     top: 40%;
     font-family: Pacifico;
@@ -364,12 +364,12 @@ html{
 
 .container-8{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .container-9{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -388,7 +388,7 @@ html{
 }
 
 .space-1{
-    width: 100vw;
+    width: 100%;
     height: 9vh;
 }
 
@@ -444,7 +444,7 @@ html{
 
 .container-main-4{
     height: 310vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(Image/australia-dawn-dusk-1872047.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -452,14 +452,14 @@ html{
 }
 
 footer{
-    width: 100vw;
+    width: 100%;
     height: 10vh;
     background: rgb(219, 219, 219,0.46);
 }
 
 .container-main-5{
     height: 310vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(Image/asia-japan-japanese-590478.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -475,7 +475,7 @@ footer{
 
 .container-main-6{
     height: 310vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(Image/cape-town-daylight-desert-963713.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -484,7 +484,7 @@ footer{
 
 .container-main-7{
     height: 310vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(Image/architecture-art-clouds-290386.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -493,7 +493,7 @@ footer{
 
 .container-main-8{
     height: 310vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(Image/ancient-clouds-historical-site-90597.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -502,7 +502,7 @@ footer{
 
 .container-main-9{
     height: 310vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(Image/big-ben-bridge-castle-460672.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -511,12 +511,12 @@ footer{
 
 .main-main-1{
     height: 200vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .podroze-1{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     top: 38%;
     font-family: Overpass;
