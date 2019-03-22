@@ -376,7 +376,7 @@ html{
 }
 
 .map-element{
-    width: 33.3vw;
+    width: 32.8vw;
     height: 45.5vh;
     background: rgb(219, 219, 219,0.45);
     display: flex;
@@ -527,11 +527,6 @@ footer{
 iframe{
     width: 28vw;
     height: 30vh;
-}
-
-.f{
-    display: flex;
-    align-items: center;
 }
 
 .australia-1{
