@@ -529,6 +529,11 @@ iframe{
     height: 30vh;
 }
 
+.f{
+    display: flex;
+    align-items: center;
+}
+
 .australia-1{
     background: url(Image/Australia/australia-city-downtown-1878293.jpg);
     background-size: cover;
